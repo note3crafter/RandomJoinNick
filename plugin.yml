@@ -1,0 +1,5 @@
+name: RandomJoinNickname
+version: 1.0.0
+api: [5.0.0]
+main: TheNote\RandomNick\Main
+author: TheNote
