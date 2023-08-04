@@ -4,6 +4,6 @@ api: [5.0.0]
 main: TheNote\RandomNick\Main
 author: TheNote
 permissions:
-  randomjoin.nick:
+  randomjoinnickname.nick:
     description: "give you a random nick"
     default: op
