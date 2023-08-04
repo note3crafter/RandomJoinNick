@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener {
 
     public function onLogin(PlayerLoginEvent $event): void {
         $player = $event->getPlayer();
-        if($player->hasPermission("randomjoin.nick")) {
+        if($player->hasPermission("randomjoinnickname.nick")) {
             $this->setRandomNickname($player);
         }
     }
